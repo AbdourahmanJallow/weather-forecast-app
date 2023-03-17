@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rainy-bg {
+    background-image: url('./components/layout/assets/rainy-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.snow-bg {
+    background-image: url('./components/layout/assets/snowbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: black;
+}
+.cloudy-bg {
+    background-image: url('./components/layout/assets/cloudy-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.clear-bg {
+    background-image: url('./components/layout/assets/clearbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.thunderstorm-bg {
+    background-image: url('./components/layout/assets/thunderstorm-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.fog-bg {
+    background-image: url('./components/layout/assets/fog-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
