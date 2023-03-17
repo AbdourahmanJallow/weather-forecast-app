@@ -14,7 +14,7 @@ function SearchAddress() {
                 setLoading(true)
 
                 try {
-                    const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${process.env.REACT_APP_OPENWEATHER_API}`);
+                    const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${process.env.REACT_APP_OPENWEATHER_API}`);
                 
                     const resp = await response.json();
                     setCoordinates(resp)
