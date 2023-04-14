@@ -3,40 +3,46 @@
 @tailwind utilities;
 
 .rainy-bg {
-    background-image: url('./components/layout/assets/rainy-bg.jpg');
+    background-image: url("./components/layout/assets/rainy-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 100%;
 }
 .snow-bg {
-    background-image: url('./components/layout/assets/snowbg.jpg');
+    background-image: url("./components/layout/assets/snowbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     color: black;
+    height: 100%;
 }
 .cloudy-bg {
-    background-image: url('./components/layout/assets/cloudy-bg.jpg');
+    background-image: url("./components/layout/assets/cloudy-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 100%;
 }
 .clear-bg {
-    background-image: url('./components/layout/assets/clearbg.jpg');
+    background-image: url("./components/layout/assets/clearbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 100%;
 }
 .thunderstorm-bg {
-    background-image: url('./components/layout/assets/thunderstorm-bg.jpg');
+    background-image: url("./components/layout/assets/thunderstorm-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 100%;
 }
 .fog-bg {
-    background-image: url('./components/layout/assets/fog-bg.jpg');
+    background-image: url("./components/layout/assets/fog-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 100%;
 }
